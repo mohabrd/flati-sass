@@ -13,7 +13,7 @@ nav {
   align-items: center;
 }
 
-div p {
+nav div p {
   display: flex;
   color: white;
   font-size: xx-large;
@@ -37,9 +37,15 @@ div p {
 
 .background {
   display: flex;
-  border: 2px solid black;
   background-image: url("../img/bg-header.png");
   height: 25vw;
+  width: 100vw;
+}
+
+.fond-beige {
+  display: flex;
+  background-color: #e8e6e0;
+  height: 15vw;
   width: 100vw;
 }
 
