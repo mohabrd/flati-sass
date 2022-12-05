@@ -35,4 +35,12 @@ div p {
   background-color: #3676bb;
 }
 
+.background {
+  display: flex;
+  border: 2px solid black;
+  background-image: url("../img/bg-header.png");
+  height: 25vw;
+  width: 100vw;
+}
+
 /*# sourceMappingURL=style.css.map */
