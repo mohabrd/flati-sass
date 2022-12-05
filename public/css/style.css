@@ -44,9 +44,45 @@ nav div p {
 
 .fond-beige {
   display: flex;
+  position: absolute;
   background-color: #e8e6e0;
-  height: 15vw;
+  height: 13vw;
   width: 100vw;
+}
+
+.p-fond-beige {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  font-size: larger;
+  margin-left: 28%;
+  margin-right: 28%;
+  text-align: center;
+  padding-top: 2.5%;
+}
+
+.p2-fond-beige {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  font-size: larger;
+  margin-left: 28%;
+  margin-right: 28%;
+  text-align: center;
+}
+
+.mot1 {
+  color: white;
+  background-color: #26a2cc;
+}
+
+.mot2 {
+  color: #28a6cf;
+  font-weight: 600;
+}
+
+.mot3 {
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=style.css.map */
