@@ -7,7 +7,7 @@ body {
 nav {
   display: flex;
   height: 5vw;
-  width: 100vw;
+  width: 100%;
   background-color: #363b47;
   justify-content: space-around;
   align-items: center;
@@ -42,7 +42,7 @@ nav div p {
   display: flex;
   background-image: url("../img/bg-header.png");
   height: 25vw;
-  width: 100vw;
+  width: 100%;
 }
 
 .fond-beige {
@@ -50,7 +50,7 @@ nav div p {
   position: absolute;
   background-color: #e8e6e0;
   height: 13vw;
-  width: 100vw;
+  width: 100%;
 }
 
 .p-fond-beige {
@@ -91,50 +91,45 @@ nav div p {
   font-weight: 600;
 }
 
-.boxs {
+.section-box {
   display: flex;
+  height: 50vh;
+  width: 100%;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.box {
   position: relative;
-  margin-top: 5%;
-  height: 25vw;
-  width: 100vw;
-  background-color: red;
+  display: flex;
+  height: 30vh;
+  width: 15vw;
+  background-color: #e2e0e0;
+  border-radius: 5px;
+  text-align: center;
   justify-content: center;
 }
 
-.box1 {
+.icon {
   display: flex;
-  position: absolute;
-  background-color: blue;
-  height: 250px;
-  width: 250px;
   margin-top: 5%;
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
 }
 
-.box2 {
-  display: flex;
+.txt {
   position: absolute;
-  background-color: blue;
-  height: 250px;
-  width: 250px;
-  margin-top: 5%;
+  justify-content: center;
+  margin-top: 20%;
 }
 
-.box3 {
-  display: flex;
-  position: absolute;
-  background-color: blue;
-  height: 250px;
-  width: 250px;
-  margin-top: 5%;
+.coloricon {
+  color: #3676bb;
 }
-
-.box4 {
-  display: flex;
-  position: absolute;
-  background-color: blue;
-  height: 250px;
-  width: 250px;
-  margin-top: 5%;
-}
-
-/*# sourceMappingURL=style.css.map */
